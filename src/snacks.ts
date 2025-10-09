@@ -1,4 +1,4 @@
-function printSnacks() {
+export function printSnacks() {
     const snacks: string[] = ['Cookies', 'Candy', 'Chocolate', 'Fruit'];
     console.log(snacks.join(', '));
 }
