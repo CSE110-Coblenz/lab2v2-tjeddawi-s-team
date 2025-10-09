@@ -6,3 +6,6 @@ function printFeatureMessage(featureName: string, style: 'bold' | 'italic' = 'bo
         console.log('\x1b[3m%s\x1b[0m', `${message}`);
     }
 }
+
+printFeatureMessage('Snacks ', 'italic');
+printFeatureMessage('Snacks', 'bold');
