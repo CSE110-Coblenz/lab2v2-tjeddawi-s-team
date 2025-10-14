@@ -1,8 +1,7 @@
 import { printFeatureMessage } from "./animation";
-
+export const snacks: string[] = ['Cookies', 'Candy', 'Chocolate', 'Fruit', 'Popcorn', 'Carrots'];
 export function printSnacks() {
-    const snacks: string[] = ['Cookies', 'Candy', 'Chocolate', 'Fruit', 'Popcorn', 'Carrots'];
-    console.log(snacks.join(', '));
+     console.log(snacks.join(', '));
 }
 
 // Call the function
